@@ -1,0 +1,54 @@
+@charset "utf-8";
+header.row h1 {
+	color: rgba(230,10,20,1.00);
+	font-family: Helvetica, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	text-shadow: 0px 5px 5px rgba(0,0,0,1.00);
+}
+header.row p {
+	color: rgba(0,0,0,1.00);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 3px 5px rgba(230,10,20,1.00);
+	letter-spacing: 0.5em;
+}
+header.row {
+	padding: 20px 0px;
+	background-color: #FFFFFF;
+	background-image: url(images/Arndell-horizontal-rgb_no_background.png);
+	background-repeat: no-repeat;
+	background-position: 1.5% 0%;
+	background-size: 209px 79px;
+	background-position: 1.5% 10%;
+}
+nav.row {
+	background-color: #004B96;
+	color: #FFFFFF;
+	border-radius: 0px;
+	margin-top: 20px;
+	text-align: center;
+}
+.navbar.navbar-default  {
+	color: #FFFFFF;
+	font-weight: bold;
+	border-width: 0px;
+	text-align: center;
+}
+.image-fill {
+
+}
+#wrapper {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.container-fluid #defaultNavbar1 .nav.navbar-nav {
+}
+li {
+	display: inline-block;
+}
+a:hover {
+	color: rgba(230,10,20,1.00);
+}
+a { color: #FFFFFF; } 
