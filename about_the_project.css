@@ -5,7 +5,15 @@ header.row h1 {
 	font-weight: normal;
 	text-align: center;
 	text-shadow: 0px 5px 5px rgba(0,0,0,1.00);
+	
+	}
+header.row {
+	background-image: url(images/Arndell-horizontal-rgb_no_background.png);
+	background-repeat: no-repeat;
+	background-position: 1.5% 10%;
+	background-size: 209px 79px;
 }
+
 header.row p {
 	color: rgba(0,0,0,1.00);
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
@@ -14,50 +22,39 @@ header.row p {
 	text-shadow: 0px 3px 5px rgba(230,10,20,1.00);
 	letter-spacing: 0.5em;
 }
-header.row {
-	padding: 20px 0px;
-	background-color: #FFFFFF;
-	background-image: url(images/Arndell-horizontal-rgb_no_background.png);
-	background-repeat: no-repeat;
-	background-position: 1.5% 0%;
-	background-size: 209px 79px;
-	background-position: 1.5% 10%;
-}
-nav.row {
+
+nav {
 	background-color: #004B96;
 	color: #FFFFFF;
 	border-radius: 0px;
 	margin-top: 20px;
 	text-align: center;
+
 }
 .navbar.navbar-default  {
 	color: #FFFFFF;
 	font-weight: bold;
 	border-width: 0px;
 	text-align: center;
+	
+	
 }
-#wrapper .row {
-	margin-bottom: 0px;
-
-}
-nav.row .nav.navbar-nav {
-	margin: 0px auto;
-}
-
-
 .image-fill {
 
 }
 #wrapper {
 	padding-left: 0px;
 	padding-right: 0px;
+	
 }
 .container-fluid #defaultNavbar1 .nav.navbar-nav {
 }
 li {
 	display: inline-block;
+	
 }
 a:hover {
 	color: rgba(0,75,150,1.00);
 }
-a { color: #FFFFFF; } 
+a { color: #FFFFFF; } iframe {
+}
