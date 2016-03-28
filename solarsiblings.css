@@ -60,4 +60,5 @@ li {
 a:hover {
 	color: rgba(0,75,150,1.00);
 }
-a { color: #FFFFFF; } 
+
+nav a { color: #FFFFFF; } 
