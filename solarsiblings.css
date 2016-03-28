@@ -37,8 +37,8 @@ nav.row {
 	text-align: center;
 }
 #wrapper .row {
+	padding: 0px 70px;
 	margin-bottom: 0px;
-
 }
 nav.row .nav.navbar-nav {
 	margin: 0px auto;
@@ -62,3 +62,6 @@ a:hover {
 }
 
 nav a { color: #FFFFFF; } 
+#wrapper .row {
+}
+
