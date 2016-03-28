@@ -64,4 +64,25 @@ a:hover {
 nav a { color: #FFFFFF; } 
 #wrapper .row {
 }
+article.profile  {
+	margin: 0px 25px 15px 25px;
+	padding-left: 10px;
+	border-left: 2px solid rgba(230,10,20,1.00);
+	border-bottom: 10px SOLID rgba(230,10,20,1.00);
+}
+article .profile {
+}
 
+#wrapper .row .profile {
+}
+
+@media (max-width:426px){
+article .profile {
+	margin: 5px 0px;
+	padding: 5px 0px;
+	border-top: solid 10px rgba(230,10,20,1.00);
+	border-bottom: solid 4px rgba(230,10,20,1.00);
+	border-left-style: none;
+}
+
+}
