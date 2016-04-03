@@ -2,12 +2,67 @@
 background-image {
 }
 #image_cluster {
-	background-image: url(images/ngc2420/NGC2420_TomJordan_400x800.png);
 	background-size: 100% 100%;
 }
-#image_getting {
-	background-image: url(images/combining%20colour.png);
+#backgroundcluster {
+	background-image: url(images/backgroundNGC2420.jpg);
 }
+
+#image_getting {
+
+}
+#backgroundtelescopes {
+	background-image: url(images/sutherlandscope.JPG);
+}
+
+#float.row {
+}
+#backgroundhome {
+	background-image: url(images/backgroundhome.jpg);
+}
+#float nav .container-fluid {
+	width: 100%;
+	background-color: #004B96;
+	background-repeat: repeat;
+}
+#float nav .container-fluid {
+}
+#float nav .container-fluid {
+}
+#backgroundgettingimage {
+	background-image: url(images/backgroundowl.jpg);
+}
+article.row {
+	background-color: rgba(0,0,0,0.40);
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	top: 254px;
+	left: 421px;
+	width: 30%;
+	position: absolute;
+	right: auto;
+}
+article.row .profile {
+	left: 60%;
+}
+
+#wrapper .row.article.row article {
+}
+article {
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	top: 254px;
+	left: 421px;
+	background-color: rgba(0,0,0,0.40);
+	border-radius: 40px;
+}
+
+
+
 
 
 
@@ -19,8 +74,6 @@ background-image {
 
 }
 
-
-
 .navbar.navbar-default  {
 	color: #FFFFFF;
 	font-weight: bold;
@@ -28,14 +81,17 @@ background-image {
 	text-align: center;
 }
 h2 {
-	color: #FFFFFF;
+	color: #000000;
 	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 3px 5px rgba(230,10,20,1.00);
 }
 
 
 #wrapper .row {
 	padding: 0px 70px;
 	margin-bottom: 0px;
+	color: #FFFFFF;
 }
 nav.row .nav.navbar-nav {
 	margin: 0px auto;
@@ -46,12 +102,14 @@ nav.row .nav.navbar-nav {
 #wrapper {
 	padding-left: 0px;
 	padding-right: 0px;
+	color: #FFFFFF;
 }
 .container-fluid #defaultNavbar1 .nav.navbar-nav {
 	text-align: right;
 }
 li {
 	display: inline-block;
+	text-align: center;
 }
 a:hover {
 	color: rgba(0,75,150,1.00);
@@ -59,23 +117,30 @@ a:hover {
 
 nav a { color: #FFFFFF; } 
 #wrapper .row {
+	width: 100%;
+	color: #FFFFFF;
 }
 article.profile  {
 	margin: 0px 25px 15px 25px;
 	padding-left: 10px;
 	border-left: 2px solid rgba(230,10,20,1.00);
 	border-bottom: 10px SOLID rgba(230,10,20,1.00);
+	color: #FFFFFF;
 }
 article .profile {
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0.70);
 }
 
 #wrapper .row .profile {
+	color: #FFFFFF;
 }
 #div_logo {
 	position: absolute;
 	left: 5%;
 	width: 22%;
 	height: 74px;
+	z-index: 20;
 }
 #div_h1 {
 	color: rgba(230,10,20,1.00);
@@ -85,6 +150,7 @@ article .profile {
 	position: absolute;
 	width: 30%;
 	left: 35%;
+	text-shadow: 0px 5px 5px rgba(0,0,0,1.00);
 }
 
 article .profile {
@@ -93,6 +159,7 @@ article .profile {
 	border-top: solid 10px rgba(230,10,20,1.00);
 	border-bottom: solid 4px rgba(230,10,20,1.00);
 	border-left-style: none;
+	color: #FFFFFF;
 }
 nav.row {
 	background-color: #004B96;
@@ -119,44 +186,19 @@ header.row h1 {
 }
 #wrapper {
 	width: 100%;
+	color: #000000;
+	background-color: #000000;
+	
+	background-repeat: no-repeat;
+	background-image: url(images/backgroundeagle.jpg);
 }
 brackground-image {
 	width: 100%;
 }
-.background-image {
-	width: 100%;
-}
+
 
 #image_home {
-	background-image: url(images/NGC5453%20colourized_400px.png);
 	background-repeat: no-repeat;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -173,22 +215,7 @@ brackground-image {
 	background-size: 100% 100%;
 }
 #image_image {
-	background-image: url(images/m16_eagle_1082X158.png);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	background-repeat: no-repeat;
 
 
 
@@ -200,13 +227,24 @@ brackground-image {
 	background-size: 100%
 %;
 	background-size: 100% 100%;
+	background-color: rgba(255,255,255,1.00);
 }
 
 #wrapper #image_home #wrapper {
 	background-repeat: no-repeat;
+	background-image: url(images/backgroundeagle.jpg);
+
 
 }
-.image-fill {
+
+p {
+	color: #FFFFFF;
 }
-.header.row {
+
+.background-image {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+.article.row {
 }
