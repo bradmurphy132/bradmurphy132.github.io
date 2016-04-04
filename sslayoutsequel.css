@@ -16,6 +16,8 @@ h1, .h1 {
 	text-shadow: 0 3px 5px rgba(0,0,0,1.00);
 	text-align: center;
 	color: rgba(230,10,20,1.00);
+	font-size: 55px;
+	background-color: rgba(157,157,157,0.60);
 }
 
 header.row.h2 {
@@ -86,6 +88,7 @@ nav.row {
 .article .footer .col-sm-12 {
 }
 .header.row.h1 {
+	background-color: rgba(157,157,157,0.60);
 
 }
 .header .col-sm-12 .header.row.h1 {
@@ -134,6 +137,11 @@ article.row {
 	background-image: url(images/backgroundNGC3372.jpg);
 	background-repeat: no-repeat;
 }
+.container-fluid .header .col-sm-12 {
+	background-image: url(images/arndell_school.jpg);
+	background-repeat: no-repeat;
+}
+
 
 
 @media (max-width:426px){
@@ -152,4 +160,7 @@ article .profile {
 
 
 
+}
+.subtitle {
+	background-color: rgba(157,157,157,0.60);
 }
