@@ -3996,6 +3996,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	text-decoration: none;
 	background-color: #eee;
 	color: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -6764,4 +6767,8 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 .position {
+}
+.men {
+}
+.text-centre1 {
 }
