@@ -1,10 +1,9 @@
 @charset "utf-8";
 article.profile {
-	
 	width: 95%;
 	margin-top: 0px;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
 	margin-bottom: 15px;
 	padding-left: 10px;
 	border-left: solid 2px rgba(58,0,2,1.00);
@@ -14,6 +13,7 @@ article.profile {
 	background-repeat: repeat;
 	border-top-left-radius: 17px;
 	border-bottom-right-radius: 31px;
+	padding-right: 10px;
 }
 
 body {
