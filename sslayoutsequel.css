@@ -55,20 +55,27 @@ header.row.h2 {
 	
 }
 .navbar {
-	width: 85%;
+	width: 100%;
 	color: rgba(253,253,253,1.00);
 	border-width: medium;
 	max-width: 1020px;
 	border-radius: 27px;
-	word-spacing: 30px;
 	padding-right: 15px;
 	padding-left: 15px;
 	top: 0%;
 	position: relative;
-	left: 0%;
+	left: -33%;
 	margin: 0 auto;
-	right: 0%;
+	word-spacing: 67px;
 }
+.navbar-nav {
+	max-width: 1020px;
+	width: 80%;
+	top: 12px;
+	margin: 0 auto;
+	position: relative;
+}
+
 .header.row.h1 {
 }
 
@@ -112,16 +119,16 @@ nav.row {
 .container-fluid .header .nav {
 	background-color: rgba(227,90,93,0.00);
 	border-radius: 15px;
-	max-width: 1020px;
+	max-width: 1200px;
 	padding-right: 0px;
 	margin-top: 0px;
 	margin-right: 5%;
 	margin-left: 5%;
 	margin-bottom: 10px;
 	padding-left: 0px;
-	width: 90%;
+	width: 1228px;
 	position: relative;
-	height: 265px;
+	height: 79px;
 	left: 1%;
 	right: 10%;
 	bottom: 20px;
@@ -140,6 +147,7 @@ nav.row {
 }
 .position {
 	position: relative;
+	margin: 0 auto;
 	top: -18px;
 }
 
@@ -254,14 +262,12 @@ a:hover {
 	max-width: 1020px;
 	position: relative;
 	display: inline-block;
-	height: 34px;
 	padding-top: 6px;
 	padding-bottom: 5px;
-	padding-left: 0px;
-	padding-right: 32px;
-	left: 127px;
-    width: 80%;
-    margin: 0 auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100%;
+	top: 5px;
 
 }
 
@@ -269,20 +275,20 @@ a:hover {
 	position: relative;
 	width: 38px;
 	text-align: center;
-	left: -115px;
+	left: -120px;
 
 }
 .text-centre1 {
 	width: 46px;
 	text-align: center;
 	position: relative;
-	left: -110px;
+	left: -115px;
 }
 .text-centre2 {
 	width: 77px;
 	text-align: center;
 	position: relative;
-	left: -106px;
+	left: -110px;
 }
 .header {
 }
@@ -297,6 +303,14 @@ a:hover {
 	background-image: -o-linear-gradient(270deg,rgba(133,160,49,0.90) 0%,rgba(123,40,41,0.25) 30.05%);
 	background-image: linear-gradient(180deg,rgba(133,160,49,0.90) 0%,rgba(123,40,41,0.25) 30.05%);
 }
+li {
+	display: inline;
+}
+.li {
+	display: inline;
+}
+
+
 
 
 
@@ -339,6 +353,7 @@ article .profile {
 	font-style: normal;
 	right: 10%;
 	top: 0px;
+	margin-top: 12px;
 }
 #logo {
 	background-color: rgba(255,255,255,0.60);
@@ -348,7 +363,7 @@ article .profile {
 	margin: 0 auto;
 	top: 0px;
 	right: 0px;
-	border-bottom-left-radius: 31px;
+	border-bottom-left-radius: 26px;
 	border-bottom-right-radius: 14px;
 }
 
@@ -375,18 +390,29 @@ article .profile {
 	width: 66px;
 	text-align: center;
 	position: relative;
-	left: -107px;
+	left: -100px;
 }
 .text-centre5 {
 	text-align: center;
 	width: 40px;
 	position: relative;
-	left: -118px;
+	left: -95px;
 }
 .menu {
+
+
 }
 .text-centre6 {
 	position: relative;
-	left: -100px;
+	left: -70px;
 	width: 29px;
+}
+.list-inline {
+	word-spacing: 20px;
+	left: -21px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.li {
 }
