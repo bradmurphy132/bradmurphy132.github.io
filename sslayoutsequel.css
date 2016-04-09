@@ -36,13 +36,12 @@ h1, .h1 {
 	color: rgba(0,75,150,1.00);
 	font-size: 60px;
 	background-color: rgba(157,157,157,0.00);
-	left: 50px;
+	left: 0px;
 	max-width: 1020px;
 	position: relative;
 	width: 90%;
-	margin-left: -2%;
-	margin-right: 10%;
-	top: -6px;
+	margin: 0 auto;
+	top: 0px;
 }
 
 header.row.h2 {
@@ -64,12 +63,15 @@ header.row.h2 {
 	word-spacing: 30px;
 	padding-right: 15px;
 	padding-left: 15px;
-	top: -15%;
+	top: 0%;
 	position: relative;
 	left: 0%;
 	margin: 0 auto;
 	right: 0%;
 }
+.header.row.h1 {
+}
+
 
 .container-fluid .header .nav {
 	max-width: 1020px;
@@ -208,7 +210,7 @@ article.profile {
 	border-top-left-radius: 17px;
 	border-bottom-right-radius: 31px;
 	position: relative;
-	top: -19px;
+	top: -3px;
 	padding-right: 9px;
 	left: -10%;
 	right: 10%;
@@ -290,6 +292,10 @@ a:hover {
 	width: 100%;
 	border-radius: 15px;
 	margin: 0 auto;
+	background-image: -webkit-linear-gradient(270deg,rgba(133,160,49,0.90) 0%,rgba(123,40,41,0.25) 30.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(133,160,49,0.90) 0%,rgba(123,40,41,0.25) 30.05%);
+	background-image: -o-linear-gradient(270deg,rgba(133,160,49,0.90) 0%,rgba(123,40,41,0.25) 30.05%);
+	background-image: linear-gradient(180deg,rgba(133,160,49,0.90) 0%,rgba(123,40,41,0.25) 30.05%);
 }
 
 
@@ -335,11 +341,15 @@ article .profile {
 	top: 0px;
 }
 #logo {
-	background-color: rgba(255,255,255,0.80);
-	position: fixed;
+	background-color: rgba(255,255,255,0.60);
+	position: relative;
 	left: 0px;
 	color: rgba(255,255,255,1.00);
+	margin: 0 auto;
 	top: 0px;
+	right: 0px;
+	border-bottom-left-radius: 31px;
+	border-bottom-right-radius: 14px;
 }
 
 .menu:active {
