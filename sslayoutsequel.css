@@ -56,18 +56,19 @@ header.row.h2 {
 	
 }
 .navbar {
-	width: 90%;
+	width: 85%;
 	color: rgba(253,253,253,1.00);
 	border-width: medium;
 	max-width: 1020px;
 	border-radius: 27px;
 	word-spacing: 30px;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
 	top: -15%;
 	position: relative;
-	left: 5%;
-	right: 5%;
+	left: 0%;
+	margin: 0 auto;
+	right: 0%;
 }
 
 .container-fluid .header .nav {
