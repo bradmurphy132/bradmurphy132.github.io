@@ -29,6 +29,7 @@ header.row.h1 {
 	text-shadow: 0px 5px 5px rgba(0,0,0,1.00);
 	
 }
+
 h1, .h1 {
 	text-shadow: 0 3px 5px rgba(255,255,255,1.00);
 	text-align: center;
@@ -55,7 +56,7 @@ header.row.h2 {
 	
 }
 .navbar {
-	width: 100%;
+	width: 90%;
 	color: rgba(253,253,253,1.00);
 	border-width: medium;
 	max-width: 1020px;
@@ -64,6 +65,9 @@ header.row.h2 {
 	padding-right: 10px;
 	padding-left: 10px;
 	top: -15%;
+	position: relative;
+	left: 5%;
+	right: 5%;
 }
 
 .container-fluid .header .nav {
