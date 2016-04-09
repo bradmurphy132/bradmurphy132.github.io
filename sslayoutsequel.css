@@ -14,6 +14,9 @@ body {
 }
 .col-sm-12.header .header.row.h1 #logo {
 }
+.container-fluid .header .col-sm-12.header {
+}
+
 
 
 
@@ -38,6 +41,7 @@ h1, .h1 {
 	width: 90%;
 	margin-left: -2%;
 	margin-right: 10%;
+	top: -6px;
 }
 
 header.row.h2 {
@@ -51,7 +55,7 @@ header.row.h2 {
 	
 }
 .navbar {
-	width: 43%;
+	width: 100%;
 	color: rgba(253,253,253,1.00);
 	border-width: medium;
 	max-width: 1020px;
@@ -59,6 +63,7 @@ header.row.h2 {
 	word-spacing: 30px;
 	padding-right: 10px;
 	padding-left: 10px;
+	top: -15%;
 }
 
 .container-fluid .header .nav {
@@ -74,11 +79,15 @@ header.row.h2 {
 	max-width: 1020px;
 	text-align: center;
 	background-color: rgba(227,90,93,0.00);
-	padding-right: 5px;
-	padding-left: 5px;
-	margin: 0 auto;
+	padding-right: 9px;
+	padding-left: 9px;
 	right: 10%;
-	bottom: 28%;
+	top: -9%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 15px;
+	padding-top: 9px;
+	padding-bottom: 9px;
 
 }
 
@@ -94,7 +103,7 @@ nav.row {
 }
 
 .container-fluid .header .nav {
-	background-color: rgba(227,90,93,0.25);
+	background-color: rgba(227,90,93,0.00);
 	border-radius: 15px;
 	max-width: 1020px;
 	padding-right: 0px;
@@ -118,6 +127,17 @@ nav.row {
 
 
 }
+.header .col-sm-12.header .navbar.nav.row.position {
+}
+.header .col-sm-12.header .navbar.nav.row.position {
+}
+.position {
+	position: relative;
+	top: -18px;
+}
+
+
+
 .menu {
 	color: rgba(255,255,255,1.00);
 	background-color: rgba(0,75,150,0.00);
@@ -132,6 +152,7 @@ nav.row {
 	text-align: center;
 	margin: 0 auto;
 	left: 9px;
+	width: 0%;
 	
 }
 .article .footer .col-sm-12 {
@@ -182,7 +203,7 @@ article.profile {
 	border-top-left-radius: 17px;
 	border-bottom-right-radius: 31px;
 	position: relative;
-	top: 30px;
+	top: -19px;
 	padding-right: 9px;
 	left: -10%;
 	right: 10%;
@@ -256,6 +277,17 @@ a:hover {
 	position: relative;
 	left: -106px;
 }
+.header {
+}
+.col-sm-12 {
+	background-color: rgba(227,90,93,0.25);
+	max-width: 1020px;
+	width: 100%;
+	border-radius: 15px;
+	margin: 0 auto;
+}
+
+
 
 
 @media (max-width:426px){
@@ -295,13 +327,14 @@ article .profile {
 	margin-left: 0%;
 	font-style: normal;
 	right: 10%;
+	top: 0px;
 }
 #logo {
 	background-color: rgba(255,255,255,0.80);
-	position: relative;
-	left: -63%;
-	bottom: 114px;
+	position: fixed;
+	left: 0px;
 	color: rgba(255,255,255,1.00);
+	top: 0px;
 }
 
 .menu:active {
@@ -341,6 +374,4 @@ article .profile {
 	position: relative;
 	left: -100px;
 	width: 29px;
-}
-#lo {
 }
