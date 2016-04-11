@@ -238,8 +238,11 @@ a:hover {
 	position: absolute;
 	left: 873px;
 	height: 2000px;
-	top: 227px;
+	top: 181.5px;
 }
+.aside_title {
+}
+
 
 li {
 	display: inline;
@@ -261,7 +264,6 @@ li {
 }
 .footer {
 	position: relative;
-	top: 130px;
 }
 .image.aside {
 	opacity: 0.31;
@@ -386,4 +388,10 @@ article .profile {
 }
 .image.aside {
 
+}
+.aside_title {
+	background-color: rgba(0,75,150,0.20);
+	border-radius: 15px;
+	font-size: small;
+	text-align: center;
 }
