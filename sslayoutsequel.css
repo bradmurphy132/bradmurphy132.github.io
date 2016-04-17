@@ -12,6 +12,7 @@ body {
 
 
 
+
 header.row.h1 {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-weight: bold;
@@ -276,6 +277,18 @@ li {
 	font-size: 17.4px;
 
 }
+.padding {
+	padding-bottom: 20px;
+}
+.thumbnail {
+	padding-right: 4px;
+	margin-top: auto;
+	margin-left: -8px;
+	margin-bottom: auto;
+	padding-left: 4px;
+}
+
+
 
 
 
@@ -422,4 +435,6 @@ article .profile {
 .li-nav {
 }
 #frameholder {
+}
+.padding {
 }
