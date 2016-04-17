@@ -287,6 +287,49 @@ li {
 	margin-bottom: auto;
 	padding-left: 4px;
 }
+#Name {
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-left: 7px;
+	border-radius: 8px;
+	padding-bottom: 7px;
+}
+#Name:hover {
+	border-color: #EC1119;
+}
+#email {
+	padding-top: 7px;
+	padding-right: 7px;
+	border-radius: 8px;
+	padding-left: 7px;
+	padding-bottom: 7px;
+}
+#email:hover {
+	border-color: #EC1119;
+}
+#form1 p #textarea {
+}
+#submit {
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,193,194,1.00) 0%,rgba(255,42,42,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,193,194,1.00) 0%,rgba(255,42,42,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,193,194,1.00) 0%,rgba(255,42,42,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,193,194,1.00) 0%,rgba(255,42,42,1.00) 100%);
+}
+.form-group {
+	color: #000000;
+}
+
+
+
+
+
+
+
 
 
 
