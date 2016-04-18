@@ -118,6 +118,7 @@ nav.row {
 }
 p {
 	text-align: left;
+	font-size: large;
 
 }
 .article #article.row h3 {
@@ -127,7 +128,12 @@ p {
 }
 .h3 {
 	color: rgba(0,0,0,1.00);
+	font-weight: bolder;
 }
+.text-colour {
+	color: #FFFFFF;
+}
+
 
 #article.row {
 	max-height: 90%;
@@ -315,14 +321,18 @@ li {
 	padding-bottom: 8px;
 	padding-left: 8px;
 	font-weight: bold;
-	background-image: -webkit-linear-gradient(270deg,rgba(255,193,194,1.00) 0%,rgba(255,42,42,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,193,194,1.00) 0%,rgba(255,42,42,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,193,194,1.00) 0%,rgba(255,42,42,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,193,194,1.00) 0%,rgba(255,42,42,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(145,164,66,0.70) 0%,rgba(66,38,123,0.70) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(145,164,66,0.70) 0%,rgba(66,38,123,0.70) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(145,164,66,0.70) 0%,rgba(66,38,123,0.70) 100%);
+	background-image: linear-gradient(180deg,rgba(145,164,66,0.70) 0%,rgba(66,38,123,0.70) 100%);
 }
 .form-group {
 	color: #000000;
 }
+#textarea {
+	color: #FFFFFF;
+}
+
 
 
 
@@ -382,6 +392,11 @@ article .profile {
 	top: 0px;
 	margin-top: 12px;
 }
+.text-white {
+	color: #710240;
+}
+
+
 #logo {
 	background-color: rgba(255,255,255,0.60);
 	position: relative;
@@ -480,4 +495,22 @@ article .profile {
 #frameholder {
 }
 .padding {
+}
+#textarea {
+}
+#textarea {
+}
+#textarea {
+}
+#textarea {
+}
+#text-white {
+}
+#text-white {
+}
+#text-white {
+}
+.text-white {
+}
+.text-colour {
 }
