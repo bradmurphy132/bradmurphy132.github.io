@@ -332,6 +332,11 @@ li {
 #textarea {
 	color: #FFFFFF;
 }
+.text-large {
+	font-weight: bold;
+	font-size: x-large;
+}
+
 
 
 
@@ -513,4 +518,6 @@ article .profile {
 .text-white {
 }
 .text-colour {
+}
+.text-large {
 }
